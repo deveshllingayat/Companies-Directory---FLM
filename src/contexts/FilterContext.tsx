@@ -33,7 +33,6 @@ export function useCompanies() {
       const q = search.toLowerCase();
       r = r.filter(c =>
         c.name.toLowerCase().includes(q) ||
-        c.ticker.toLowerCase().includes(q) ||
         c.ceo.toLowerCase().includes(q)
       );
     }
