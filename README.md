@@ -2,7 +2,7 @@
 
 > A production-grade React frontend application showcasing modern state management, real-time filtering, and responsive design patterns.
 
-**[Live]()**
+**[Live Site](https://companies-directory-flm-nine.vercel.app)**
 
 ---
 

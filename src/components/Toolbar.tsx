@@ -37,7 +37,7 @@ export default function Toolbar() {
             fontFamily: "'DM Sans', sans-serif", fontSize: 14,
             background: 'var(--bg)', color: 'var(--text)', outline: 'none',
           }}
-          placeholder="Search companies, tickers, CEOs…"
+          placeholder="Search companies, CEOs…"
           value={search}
           onChange={e => dispatch(setSearch(e.target.value))}
         />
